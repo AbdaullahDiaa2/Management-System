@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/a.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normaliz.css'>
+    <title>فاتورة</title>
+</head>
+
+<body>
+    <div class="contner ">
+        <div class="header">
+            <h1><i class="fa-solid fa-shop" style="color: rgb(195, 131, 255);"></i> اسواق الغدير </h1>
+            <div class="nav">
+                <ul>
+                    <li id="speek"><a href="indx0.html"><i class="fa-solid fa-home"></i><span>home </span></a></li>
+                    <li id="gooles"><a href="a.html"><i class="fa-brands fa-shopify"></i> <span>oogl </span></a></li>
+                    <li id="texttrn"> <a href="indx3.html"><i class="fa-solid fa-spell-check"></i> <span>text</span> </a></li>
+                    <div class="lyer"><i class="fa-solid fa-circle-check"></i></div>
+                </ul>
+            </div>
+        </div>
+        <div class="border  ">
+            <div class="contn ds">
+                <div>
+
+                    <div class="inpout ds">
+                        <input type="text" placeholder="اسم المنتج" id="tl">
+                        <div class="porBox">
+                            <i class="fa-brands fa-twitter"></i>
+                            <input type="number" onkeyup="getnumber()" placeholder="سعر الشراء" id="price">
+                            <input type="number" placeholder="سعر البيع" id="taxes">
+                            <input type="number" onkeyup="getnumber()" placeholder="الكمية" id="count">
+                            <small id="totl" onkeyup="getnumber()"> </small>
+                        </div>
+                        <button id="create">Create</button>
+                    </div>
+
+                    <div class="outpout ">
+                        <input type="text" placeholder="Search" id="Search" onkeyup="seerch2(this.value)">
+                        <div class="boxbut">
+                            <button id="SearchTlitl">Search by Tlitl</button>
+                            <button id="SearchCategory">Search by Category</button>
+                        </div>
+                    </div>
+                    <div id="claer"></div>
+                </div>
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>المنتج</th>
+                        <th>سعر الشراء</th>
+                        <th>سعر البيع</th>
+                        <th> الكمية</th>
+
+                    </tr>
+                    <tbody id="tbody2">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card">
+                <div>
+                    <table class="tab">
+                        <h1 class=""> المجموع <span class="totlnumber"></span></h1>
+                        <tbody id="kk">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/a.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/a.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normaliz.css'>
+    <title>بيع</title>
+</head>
+
+<body>
+    <div class="contner">
+        <div class="header">
+            <div id="num" class="ds3">
+                <h1>تجهيزات الغدير</h1>
+                <div>07722784970 <i class="fa-solid fa-phone"></i></div>
+                <div>بغداد الجديدة <i class="fa-solid fa-location-dot"></i></div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li id="speek"><a href="indx0.html"><i class="fa-solid fa-home"></i><span>home </span></a>
+                    </li>
+                    <li id="gooles"><a href="a.html"><i class="fa-brands fa-shopify"></i> <span>shop </span></a></li>
+                    <li id="texttrn"> <a href="indx3.html"><i class="fa-solid fa-spell-check"></i> <span>sell products</span> </a></li>
+                    <div class="lyer"><i class="fa-solid fa-circle-check"></i></div>
+                </ul>
+            </div>
+        </div>
+        <div class="border">
+            <div class="contn ">
+                <div>
+
+                    <div class="inpout ds">
+                        <input type="text" placeholder="اسم المنتج" id="tl">
+                        <div class="porBox">
+                            <i class="fa-brands fa-twitter"></i>
+                            <input type="number" onkeyup="getnumber()" placeholder="سعر الشراء" id="price">
+                            <input type="number" placeholder="سعر البيع" id="taxes">
+                            <input type="number" onkeyup="getnumber()" placeholder="الكمية" id="count">
+                            <small id="totl" onkeyup="getnumber()"> </small>
+                        </div>
+                        <button id="create">Create</button>
+                    </div>
+
+                    <div class="outpout ">
+                        <input type="text" placeholder="Search" id="Search" onkeyup="seerch2(this.value)">
+                        <div class="boxbut">
+                            <button id="SearchTlitl">Search by Tlitl</button>
+                            <button id="SearchCategory">Search by Category</button>
+                        </div>
+                    </div>
+                    <div id="claer"></div>
+                </div>
+                <table class="">
+                    <tr>
+                        <th>id</th>
+                        <th>المنتج</th>
+                        <th>سعر الشراء</th>
+                        <th>سعر البيع</th>
+                        <th>سعر البيع</th>
+                        <th> الكمية</th>
+                        <th> الكمية</th>
+
+                    </tr>
+                    <tbody id="tbody2">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card">
+                <div class="btn-show">
+                    <h1 class="totlnumber"></h1>
+                    <div class=""> <button id="btnok" onclick="trns()">تم  </button>
+                        <button id="btnok" onclick="removall()">اعادة  </button></div>
+                </div>
+                <div class="tborders-show">
+                    <table class="tab">
+                        <tr class="tr-show">
+                            <th>المبلغ</th>
+                            <th> الكمية</th>
+                            <th> النوع</th>
+                            <th> اسم المنتج</th>
+                            <th>ت</th>
+                        </tr>
+                        <tbody id="dd">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="time">
+                    2022/23/3
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/a.js"></script>
+</body>
+
+</html>

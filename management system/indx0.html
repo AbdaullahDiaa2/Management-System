@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/a.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normaliz.css'>
+    <title>المبيعات</title>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li id="speek"><a href="indx0.html"><i class="fa-solid fa-home"></i><span>home </span></a></li>
+            <li id="gooles"><a href="a.html"><i class="fa-brands fa-shopify"></i> <span>shop </span></a></li>
+            <li id="texttrn"> <a href="indx3.html"><i class="fa-solid fa-spell-check"></i> <span>sell products</span> </a></li>
+            <div class="lyer"><i class="fa-solid fa-circle-check"></i></div>
+        </ul>
+    </div>
+    <section class="part1" id="aa">
+        <div class="layer"></div>
+        <div class="textpart1">
+            <h1>تجهيزات الغدير</h1>
+            <div>07722784970 <i class="fa-solid fa-phone"></i></div>
+            <div>بغداد الجديدة <i class="fa-solid fa-location-dot"></i></div>
+
+        </div>
+    </section>
+
+
+
+    <div class="contner ds">
+        <div class="header">
+            <h1>المبيعات</h1>
+            <p id="time">management system crud </p>
+        </div>
+        <div class="inpout ds ">
+            <input type="text" placeholder="اسم المنتج" id="tl">
+            <div class="porBox">
+                <input type="text" onkeyup="getnumber()" placeholder="نوعيه" id="kid">
+                <input type="number" onkeyup="getnumber()" placeholder="سعر الشراء" id="price">
+                <input type="number" placeholder="سعر البيع" id="taxes">
+                <input type="number" onkeyup="getnumber()" placeholder="الكمية" id="count">
+                <small id="totl" onkeyup="getnumber()"> </small>
+            </div>
+            <button id="create">Create</button>
+        </div>
+
+        <div class="outpout ds ">
+            <input type="text" placeholder="Search" id="Search" onkeyup="seerch(this.value)">
+            <div class="boxbut">
+                <button id="SearchTlitl" onclick="moode(id)">Search by Tlitl</button>
+                <button id="SearchCategory" onclick="moode(id)">Search by Category</button>
+            </div>
+        </div>
+        <div id="claer"></div>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>المنتج</th>
+                <th>نوعيه</th>
+                <th>سعر الشراء</th>
+                <th>سعر البيع</th>
+                <th> الكمية</th>
+                <th>العدد الكلي</th>
+                <th>تعديل</th>
+                <th>حذف</th>
+            </tr>
+            <tbody id="tbody dsx">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>samsung</td>
+                    <td>2000</td>
+                    <td>1000</td>
+                    <td>1000</td>
+                    <td>1000</td>
+                    <td>2000</td>
+                    <td>phone</td>
+                    <td>   
+                        <button>update</button>
+                    </td>
+                    <td><button>delete</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+
+    </div>
+    <script src="js/a.js"></script>
+</body>
+
+</html>
+
+</html>
